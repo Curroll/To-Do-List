@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Weather from './weather';
 
 const ToDoList = () => {
-    const [tasks, setTasks] = useState([]);
+    const [tasks, setTasks] = useState(["Checking the Lists","Fetching Api","Making The Way"]);
     const [task, setTask] = useState('');
     const [city, setCity] = useState('');
 
